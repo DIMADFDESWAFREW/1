@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red82\green173\blue247;}
+{\*\expandedcolortbl;;\cspthree\c100000\c100000\c100000;\cspthree\c47284\c72889\c95518;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 <!DOCTYPE html>\
+<html lang="ru">\
+<head>\
+  <meta charset="UTF-8">\
+  <title>Runner Game</title>\
+  <style>\
+    body \{ margin: 0; background: #111; overflow: hidden; \}\
+    \cf3 #game\cf2  \{ background: #222; width: 100vw; height: 100vh; position: relative; \}\
+    .player \{\
+      width: 40px; height: 40px; background: \cf3 #4ef\cf2 ;\
+      position: absolute; bottom: 0; left: 50px; border-radius: 8px;\
+    \}\
+    .obstacle \{\
+      width: 40px; height: 40px; background: \cf3 #f44\cf2 ;\
+      position: absolute; bottom: 0; right: 0; border-radius: 6px;\
+    \}\
+    \cf3 #score\cf2  \{\
+      position: absolute; top: 20px; left: 20px;\
+      color: white; font-size: 24px; font-family: sans-serif;\
+    \}\
+  </style>\
+</head>\
+<body>\
+<div id="game">\
+  <div class="player" id="player"></div>\
+  <div id="score">0</div>\
+</div>\
+\
+<script src="game.js"></script>\
+</body>\
+</html>}
